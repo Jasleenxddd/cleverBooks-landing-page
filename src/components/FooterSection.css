@@ -1,0 +1,13 @@
+.footer-section {
+    background: #151218;
+    color: white;
+    height: 200px;
+}
+.container{
+    margin-top: 15px;
+
+}
+footer address {
+    font-style: normal;
+    line-height: 1.6;
+}

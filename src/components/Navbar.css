@@ -1,0 +1,74 @@
+/* src/components/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 1px; */
+    background-color: #151218;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+ 
+  .navbar img{
+    margin-left: 133px;
+  }
+  .navbar p{
+    margin-right: 250px;
+    
+  }
+  .kety{
+    font-size: 30px;
+  }
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    margin-right: 50px;
+    padding: 0;
+  }
+  .navbar-l{
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+    padding: 0;
+  }
+  .navbar li {
+    margin-left: 20px;
+  }
+  
+  .navbar-links .login{
+    background: linear-gradient(125deg, #9f6eed, #fc907e, #9f6eed, #fc907e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+  margin-left: 65px; 
+  z-index: 1;
+  
+ }
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  .navbar-l .contact {
+    background: linear-gradient(145deg, rgba(252, 144, 126, 1) 0%, rgba(159, 110, 237, 1) 100%);
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-right: 50px;
+    font-size: 16px;
+}
+  .navbar-links li:hover{
+    background: linear-gradient(125deg, #9f6eed, #fc907e, #9f6eed, #fc907e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+  }
+.contact:hover {
+  background: linear-gradient(145deg, rgba(159, 110, 237, 1) 0% ,rgba(252, 144, 126, 1) 100%);
+  color: black;
+}
+.img{
+  font-size: 50px;
+}

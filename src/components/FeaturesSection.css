@@ -1,0 +1,38 @@
+.features-section {
+    background: #ffffff;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+.container4 h2{
+    font-size: 40px;
+}
+
+.tab {
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    background: rgb(216, 212, 212);
+    border: none;
+    
+}
+
+.tab.active {
+color: #26282a;   
+background: linear-gradient(145deg, rgba(252, 144, 126, 1) 0%, rgba(159, 110, 237, 1) 100%);
+}
+
+.tab-content {
+    margin-top: 40px;
+    padding: 20px;
+    border: 1px solid #f1e9fc;
+}
+
+#btnn:hover {
+    background: linear-gradient(145deg, rgba(252, 144, 126, 1) 0%, rgba(159, 110, 237, 1) 100%);
+    color: black;
+}

@@ -1,0 +1,24 @@
+.cta-section {
+    background: rgb(172,75,59);
+background: linear-gradient(90deg, rgba(172,75,59,1) 0%, rgba(152,69,107,1) 43%, rgba(69,31,131,1) 89%);
+        color: white;
+        font-size: 20px;
+}
+.container5{
+    margin-bottom: 15px;
+
+}
+
+.btn {
+    background: #e0dede;
+    color: #26282a;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background:  #b3a8c2;
+
+}

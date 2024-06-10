@@ -1,0 +1,19 @@
+
+.problems-section {
+    /* background: #f7f7f7; */
+    background: #f1e9fc;
+}
+.container1 h2{
+    font-size: 40px;
+}
+.container1 p{
+    font-size: 20px;
+}
+.problems-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.problems-section li {
+    margin: 10px 0;
+}

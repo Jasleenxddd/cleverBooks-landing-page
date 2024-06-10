@@ -1,0 +1,24 @@
+.reviews-section {
+    background: #f1e9fc;
+}
+
+.reviews {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.review {
+    width: 30%;
+    margin: 10px 0;
+}
+.container3 h2{
+    font-size: 40px;
+}
+.reviews h4{
+    font-size: 20px;
+    margin-top: 0.5px;
+    background:  linear-gradient(125deg, #9f6eed, #fc907e, #9f6eed, #fc907e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;     
+}
